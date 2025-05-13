@@ -1,6 +1,6 @@
 # cmp-symfony
 
-cmp plugin to complete Symfony related code.
+[nvim-cmp](https://github.com/hrsh7th/nvim-cmp) plugin to complete Symfony related code.
 
 Status:
 
