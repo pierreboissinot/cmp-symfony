@@ -5,7 +5,7 @@
 Status:
 
 - cmp-symfony-service: WIP
-- cmp-symfony-route: TODO
+- cmp-symfony-route: WIP
 - ...
 
 ## Dependencies
@@ -27,24 +27,22 @@ call plug#end()
 
  ## Usage
 
-Add `symfony_service` as cmp source
+Add `symfony_service` and `symfony_route` as cmp sources
 
 ```lua
 require('cmp').setup({
   sources = cmp.config.sources({
-
     { name = 'symfony_service' },
+    { name = 'symfony_route' },
 
     -- other sources like buffer, path, etc.
     { name = 'buffer' },
     { name = 'nvim_lsp' },
   }),
 })
-
 ```
 
 Inspirations:
 
 - [fbuchlak/cmp-symfony-router](https://github.com/fbuchlak/cmp-symfony-router)
 - [Haehnchen/idea-php-symfony2-plugin](https://github.com/Haehnchen/idea-php-symfony2-plugin)
-
