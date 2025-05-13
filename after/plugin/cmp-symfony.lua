@@ -1,0 +1,1 @@
+require("cmp").register_source("symfony_service", require("cmp-symfony").new())
